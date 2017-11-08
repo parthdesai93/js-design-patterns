@@ -1,7 +1,5 @@
 //basic constructor pattern.
 
-//basic constructor pattern.
-
 /**
  * A basic constructor pattern without prototype 
  * Every new person object created has it's own fullname
@@ -40,8 +38,7 @@ class NewPerson {
         // }
     }
     /**
-     * A better way to do is to use prototype inheritance.
-     * Don't use arrow syntax since it screws up with this scope
+     * this is same decalring a method on prototype.
      */
     fullname() {
         return `${this.firstname} ${this.lastname}`;
