@@ -6,6 +6,7 @@ let testModule = ( () => {
   let decrementCounter = () => counter--;
   let resetCounter = () => counter = 0;
   let count = () => counter;
+  
   return {
     incrementCounter: incrementCounter,
     decrementCounter: decrementCounter,
